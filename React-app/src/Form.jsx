@@ -6,6 +6,14 @@ function Form(){
     const[Password,setPassword]=useState("")
     const[Submit,setSubmit]=useState(false)
 
+     function reset(){
+        setName("")
+        setEmail("")
+        setPassword("")
+        setSubmit(false)
+
+     }
+
 
     return(
         <div>
@@ -19,6 +27,7 @@ function Form(){
                 <p>Email:{Email}</p>
                 <p>Password:{Password}</p>
                 </div>}
+                <button onClick={reset}>Reset</button>
 
 
             
