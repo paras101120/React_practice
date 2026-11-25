@@ -18,6 +18,7 @@ import Notification from './Notification';
 import Password from './Password';
 import TextPreview from './TextPreview';
 import Form from './Form';
+import Student_form from './student_from';
 
 function App(){
   const [value, setValue] = useState('');
@@ -77,6 +78,8 @@ function App(){
       <TextPreview/>
       <hr />
       <Form/>
+      <hr />
+      <Student_form/>
 
       
 
